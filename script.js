@@ -1,5 +1,9 @@
-var Array = ["red", "orange", "yellow", "green.", "blue", "purple"];
+console.log ("Guess my name.")
 
-var random = Math.floor( Math.random() * secondArray.length );
+var name = "Lara" ;
 
-console.log(random);
+if (name == "Lara"){
+  console.log("You guessed right!")
+} else {
+  console.log ("Guess again!")
+}
